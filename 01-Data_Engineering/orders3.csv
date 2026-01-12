@@ -1,0 +1,6 @@
+order_id,customer,product,qty,price
+1006,Alice,Notebook,-1,5.90
+1006,Dave,Book,1,13.49
+,Bob,Book,0,12.99
+1007,Carla,Book,1,13.49
+1008,Bob,Pencil,7,5.23

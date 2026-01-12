@@ -1,0 +1,4 @@
+order_id,customer,product,qty,price,order_ts
+1006,Alice,Notebook,2,5.90,2024-01-12T10:15:00
+1007,Dave,Book,1,13.49,2024-01-13T09:02:00
+1003,Bob,Book,3,12.99,2024-01-14T12:30:00
