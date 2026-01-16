@@ -31,10 +31,10 @@ Ergebnisformat: Auflistung mit 2 - 3 Unterschieden (Stichpunkte genügen)
 
 # Aufgabe 4
 
-Modellieren Sie den Sachverhalt “Rechnung mit mehreren Rechnungspositionen”
+Modellieren Sie den Sachverhalt “Buch-Exemplare in einer Bibliothek mit Autor, Titel, ISBN und eindeutiger Kennzeichnung für Ausleihe/Rückgabe”
 - konzeptionell
 - logisch (Normalformen!)
 
 Ergebnisformat:
 - ER-Modell
-- logisches Modell (z.B. als "Krähenfuß-Diagramm")
+- logisches Modell
