@@ -1,12 +1,12 @@
 # Aufgabe 1
 
-## a)
+a)
 Skizzieren Sie (vereinfacht) ein Star- und ein Snowflake-Schema für den folgenden Kontext:
 Energieversorger mit Kunden, Zählpunkten, Tarifen und täglichen Messwerten.
 
 Ergebnisformat: zwei logische Datenmodelle
 
-## b)
+b)
 Beantworten Sie:
 - Wo liegen die Vorteile des Star-Schemas für BI-Analysen?
 - Wo liegen die Vorteile des Snowflake-Schemas aus technischer Sicht?
@@ -16,12 +16,12 @@ Ergebnisformat: drei Listen mit stichpunktartigen Antworten
 
 # Aufgabe 2
 
-## a)
+a)
 Erläutern Sie in eigenen Worten, was ein zeitlich konsistenter Join ist.
 
 Ergebnisformat: kurze stichpunktartige Erläuterung
 
-## b)
+b)
 Sie haben zwei Tabellen:
 - FAKT_VERBRAUCH (kunde_id, datum, tarif_id, ...) mit täglichen Messwerten
 - DIM_TARIF (tarif_id, preis_kwh, ...) historisiert mit Gültigkeitszeiträumen
@@ -30,14 +30,14 @@ Schreiben Sie eine Abfrage, die für einen gegebenen Kunden und einen gegebenen 
 
 Ergebnisformat: formlose Query
 
-## c)
+c)
 Warum ist Historisierung (wie in dieser Aufgabe) eine Voraussetzung für reproduzierbare ML-Modelle?
 
 Ergebnisformat: kurze stichpunktartige Erläuterung
 
 # Aufgabe 3
 
-## a)
+a)
 Beantworten Sie:
 - Was ist der Unterschied zwischen Feature-Historisierung und Feature-Versionierung.
 - Warum ist ein Feature Store eine Voraussetzung für Reproduzierbarkeit im ML?
@@ -45,12 +45,12 @@ Beantworten Sie:
 
 Ergebnisformat: drei Listen mit stichpunktartigen Antworten
 
-## b)
+b)
 Nennen Sie drei konkrete Maßnahmen, um Lineage Tracking im Analytical Stack umzusetzen.
 
 Ergebnisformat: Liste mit stichpunktartigen Antworten
 
-## c)
+c)
 Beantworten Sie:
 - Warum gehört auch die Verknüpfung zu einer Versionsverwaltung für Dateien (git, MLflow, ...) zur vollständigen Lineage?
 - Welche Vorteile hat Lineage Tracking für Fehleranalyse, Audits, Datenverantwortung?
