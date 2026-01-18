@@ -1,34 +1,5 @@
 # Aufgabe 1
 
-Wählen Sie aus Ihrem beruflichen Umfeld ein Quellsystem (z.B. Smartmeter-Messdaten), die technischen Details für Ingestion (z.B. CSV-Dateien, API, Events) und einen Konsumenten (z.B. BI, ML, fachliches Ziel). Definieren Sie davon ausgehend ein geeignetes Datenprodukt.
-
-Ergebnisformat: Name des Datenprodukts, Auflistung aller relevanten Eigenschaften
-
-Skizzieren Sie für dieses Datenprodukt Ingest, Transform, Serve, Storage. Gehen Sie dabei insbesondere auch auf die Wahl der Datenarten, Speicherformen und Schnittstellen ein.
-
-Ergebnisformat: Schaubild + Beschreibung, aus denen die Aufgaben/Tätigkeiten der jeweiligen Bestandteile und die Kommunikation zwischen diesen hervorgeht.
-
-
-# Aufgabe 2
-
-Ordnen Sie Ihr berufliches Umfeld in das Datenreife-Raster aus den Folien ein:
-1. Starting with Data
-2. Scaling with Data
-3. Leading with Data
-
-Woran machen Sie das fest?
-
-Ergebnisformat: Name des Reifegrads, stichpunktartige Begründung zur Einordnung gemäß den Punkten Fokus und Risiken
-
-Beantworten Sie dann:
-- Was sind aktuell die TOP3 Painpoints?
-- Was ist aktuell der schwerwiegendste Engpass?
-- Was wären die nächsten 2-3 wirksamsten Schritte?
-
-Ergebnisformat: je Frage eine Auflistung mit stichpunktartigen Beschreibungen
-
-# Aufgabe 3
-
 Bei dieser Aufgabe geht es darum, den Data Engineering Lifecycle im Kleinen zu durchlaufen.
 
 Grundlage für diese Aufgabe sind diese Daten (`orders.csv`):
@@ -58,7 +29,7 @@ Bei der Bearbeitung dieser Aufgabe sind ggf. folgende Python-Module hilfreich:
 - `pandas`
 - `duckdb`
 
-# Aufgabe 4
+# Aufgabe 2
 
 Grundlage für diese Aufgabe ist Ihre Lösung zur vorherigen Aufgabe.
 
@@ -84,5 +55,36 @@ order_id,customer,product,qty,price
 ,Bob,Book,0,12.99
 1007,Carla,Book,1,13.49
 1008,Bob,Pencil,7,5.23
+```
+
+# Aufgabe 3
+
+Wählen Sie aus Ihrem beruflichen Umfeld ein Quellsystem (z.B. Smartmeter-Messdaten), die technischen Details für Ingestion (z.B. CSV-Dateien, API, Events) und einen Konsumenten (z.B. BI, ML, fachliches Ziel). Definieren Sie davon ausgehend ein geeignetes Datenprodukt.
+
+Ergebnisformat: Name des Datenprodukts, Auflistung aller relevanten Eigenschaften
+
+Skizzieren Sie für dieses Datenprodukt Ingest, Transform, Serve, Storage. Gehen Sie dabei insbesondere auch auf die Wahl der Datenarten, Speicherformen und Schnittstellen ein.
+
+Ergebnisformat: Schaubild + Beschreibung, aus denen die Aufgaben/Tätigkeiten der jeweiligen Bestandteile und die Kommunikation zwischen diesen hervorgeht.
+
+
+# Aufgabe 4
+
+Ordnen Sie Ihr berufliches Umfeld in das Datenreife-Raster aus den Folien ein:
+1. Starting with Data
+2. Scaling with Data
+3. Leading with Data
+
+Woran machen Sie das fest?
+
+Ergebnisformat: Name des Reifegrads, stichpunktartige Begründung zur Einordnung gemäß den Punkten Fokus und Risiken
+
+Beantworten Sie dann:
+- Was sind aktuell die TOP3 Painpoints?
+- Was ist aktuell der schwerwiegendste Engpass?
+- Was wären die nächsten 2-3 wirksamsten Schritte?
+
+Ergebnisformat: je Frage eine Auflistung mit stichpunktartigen Beschreibungen
+
 ```
 
