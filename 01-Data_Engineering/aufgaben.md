@@ -85,6 +85,3 @@ Beantworten Sie dann:
 - Was wären die nächsten 2-3 wirksamsten Schritte?
 
 Ergebnisformat: je Frage eine Auflistung mit stichpunktartigen Beschreibungen
-
-```
-
